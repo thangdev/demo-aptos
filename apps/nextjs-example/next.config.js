@@ -2,8 +2,8 @@ const isProd = process.env.NODE_ENV === "production";
 
 module.exports = {
   reactStrictMode: true,
-  // assetPrefix: "/aptos-wallet-adapter",
-  // basePath:"/aptos-wallet-adapter",
+  assetPrefix: "/aptos-mint-nft",
+  basePath:"/aptos-mint-nft",
   images: { unoptimized: true },
   experimental: {
     transpilePackages: ["wallet-adapter-react", "wallet-adapter-plugin"],

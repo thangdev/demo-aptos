@@ -1,0 +1,1 @@
+# Aptos Minting NFT Example
